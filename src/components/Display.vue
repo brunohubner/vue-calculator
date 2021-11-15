@@ -18,7 +18,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
   font-size: 2.1rem;
-  padding-right: 10px;
+  padding-right: 20px;
   overflow: hidden;
 }
 </style>
