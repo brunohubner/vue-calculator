@@ -1,24 +1,24 @@
 <template>
-  <div class="display">
-    {{ value }}
-  </div>
+    <div class="display">
+        {{ value }}
+    </div>
 </template>
 
 <script>
 export default {
-  props: ["value"],
-};
+    props: ["value"]
+}
 </script>
 
 <style>
 .display {
-  grid-column: span 4;
-  background-color: #0004;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 2.1rem;
-  padding-right: 20px;
-  overflow: hidden;
+    grid-column: span 4;
+    background-color: #0004;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.1rem;
+    padding-right: 20px;
+    overflow: hidden;
 }
 </style>
